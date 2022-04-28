@@ -1,0 +1,20 @@
+name: New Theme
+type: theme
+description: "New Theme Drupal 8"
+package: custom
+core_version_requirement: ^8 || ^9
+base theme: false
+
+libraries:
+  - 'start/global-css'
+  - 'start/global-js'
+
+regions:
+  header: 'header'
+  main_menu: 'Main Menu'
+  content_top: 'Content top'
+  content: 'Content'
+  content_bottom: 'Content bottom'
+  footer: 'Footer'
+  footer_copyright: 'Footer Copyright'
+  disabled 	: 'Disabled'
