@@ -27,7 +27,9 @@
  * @ingroup themeable
  */
 #}
-<div{{ attributes }}>
+<section class="py-5">
+    <div class="container px-5 my-5">
+    <div class="row gx-5 justify-content-center">
   {{ title_prefix }}
   {% if label %}
     <h2{{ title_attributes }}>{{ label }}</h2>
@@ -36,4 +38,6 @@
   {% block content %}
     {{ content }}
   {% endblock %}
-</div>
+   </div>
+   </div>
+</section>
